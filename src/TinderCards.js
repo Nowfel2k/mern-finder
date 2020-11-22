@@ -6,12 +6,12 @@ import axios from "./axios";
 function TinderCards() {
   const [people, setPeople] = useState([]);
 
-  useEffect(() => {
-    async function fetchData() {
-      const req = await axios.get("/tinder/cards");
+  const fetchData = async () => {
+    const req = await axios.get("/tinder/cards");
+    setPeople(req.data);
+  };
 
-      setPeople(req.data);
-    }
+  useEffect(() => {
     fetchData();
   }, []);
 

@@ -8,14 +8,18 @@ function Header() {
   return (
     <div className="header">
       <IconButton>
-        <PersonButton fontSize="large" className="header__icon" />
+        <PersonButton className="header__icon" fontSize="large" />
       </IconButton>
-      <img
-        className="header__logo"
-        src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png"
-      />
       <IconButton>
-        <ForumIcon fontSize="large" className="header__icon" />
+        <img
+          alt="logo "
+          className="header__logo"
+          src="https://lh3.googleusercontent.com/proxy/xENTK-WrHrtfMxZFWYkMkoaWiD648pOoPL_PMnMA1r2byYatsyvSKC5oCaUdv_C6ZAEyIzSJ4FpBugFOnrzbrxwyaeujKDIdOISGvciOPaZoYSsc9nJoEkkpLyVKTwTtQKXD"
+        />
+      </IconButton>
+
+      <IconButton>
+        <ForumIcon className="header__icon" fontSize="large" />
       </IconButton>
     </div>
   );
