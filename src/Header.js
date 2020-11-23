@@ -14,7 +14,7 @@ function Header() {
         <img
           alt="logo "
           className="header__logo"
-          src="https://lh3.googleusercontent.com/proxy/xENTK-WrHrtfMxZFWYkMkoaWiD648pOoPL_PMnMA1r2byYatsyvSKC5oCaUdv_C6ZAEyIzSJ4FpBugFOnrzbrxwyaeujKDIdOISGvciOPaZoYSsc9nJoEkkpLyVKTwTtQKXD"
+          src="https://i.ibb.co/G2Y0jpj/logo512.png"
         />
       </IconButton>
 
